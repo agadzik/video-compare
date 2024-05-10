@@ -12,7 +12,7 @@ export async function load(ffmpeg: FFmpeg) {
     toBlobURL(`${BASE_URL}/ffmpeg-core.js`, "text/javascript"),
     toBlobURL(`${BASE_URL}/ffmpeg-core.wasm`, "application/wasm"),
     // toBlobURL(`${BASE_URL}/ffmpeg-core.worker.js`, "text/javascript"),
-    fetchFile("GeistMonoVariableVF.ttf"),
+    fetchFile("GeistBold.ttf"),
   ]);
 
   const isLoaded = await ffmpeg.load({
